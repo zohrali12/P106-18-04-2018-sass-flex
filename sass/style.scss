@@ -1,0 +1,138 @@
+body{
+   margin:0;
+}
+#footer{
+    height: 490px;
+    width: 100%;
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    box-sizing: border-box;
+    p{
+            color: #a5a1a1;
+        }
+    .upperrow{
+        height: 360px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2.5fr 1.5fr 2fr 2fr;
+        grid-template-rows: auto;
+        border-bottom: 1px solid #ffffff96;
+        div{
+            padding: 10px;
+            box-sizing: border-box;
+        }
+       
+        h2{
+            color: #a5a1a1;
+        }
+        .subscribe p{
+            padding-right: 50px;
+        }
+        span{
+            color: #c12f2f;
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            margin: 24px 0;
+            color: #a5a1a1;
+        }
+        .Service_list{
+            a{
+                text-decoration: none;
+                color: #a5a1a1;
+                i{
+                    font-size: 10px;
+                }
+                &:hover{
+                    color: red;
+                    }
+                
+            
+        }
+        
+        }
+        .galery{
+            height: 170px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto ;
+            grid-gap: 5px;
+            padding: 0;
+            .picture{
+                padding: 0;
+                
+            }
+            img{
+               width: 100%;
+//                float: left;
+            }
+        }
+        #subscribe_box{
+            height: 40px;
+            width: 60%;
+            background: #0e0e0ecf;
+            border: none;
+            margin-top: 40px;
+        }
+        .btn_join{
+            height: 40px;
+            width: 30%;
+            background: #ED1C24;
+            border: 0;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            
+        }
+        
+        .social_icons{
+            margin-top: 30px;
+            padding: 0;
+             a{
+                color: #a5a1a1;
+                font-size: 20px;
+                margin-right: 10px;
+                padding: 5px;
+                  &:hover{
+                    color: black;
+                    background: white;
+                    }
+            }
+            
+        }
+    }
+    .bottomrow{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto ;
+        padding: 10px;
+        
+        p a{
+            color: #c12f2f;
+            text-decoration: none;
+        }
+        .quick_links{
+            text-align: right;
+        }
+        ul{
+            list-style: none;
+            
+        }
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: #a5a1a1;
+                margin-right: 20px;
+            }
+            
+        }
+        
+    }
+}
